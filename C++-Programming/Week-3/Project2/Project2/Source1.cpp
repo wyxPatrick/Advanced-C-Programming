@@ -1,0 +1,1 @@
+Sample(Sample& c) { v = c.v + 5; }
