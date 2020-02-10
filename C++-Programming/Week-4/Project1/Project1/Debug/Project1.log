@@ -1,0 +1,17 @@
+﻿  Source.cpp
+C:\Users\patri\OneDrive\Desktop\Project1\Project1\Source.cpp(18,1): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message : see declaration of 'strcpy'
+C:\Users\patri\OneDrive\Desktop\Project1\Project1\Source.cpp(19,1): error C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(440): message : see declaration of 'strtok'
+C:\Users\patri\OneDrive\Desktop\Project1\Project1\Source.cpp(21,1): error C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(440): message : see declaration of 'strtok'
+C:\Users\patri\OneDrive\Desktop\Project1\Project1\Source.cpp(30,12): error C2679: binary '=': no operator found which takes a right-hand operand of type 'const char [5]' (or there is no acceptable conversion)
+C:\Users\patri\OneDrive\Desktop\Project1\Project1\Source.cpp(25,1): message : could be 'Complex &Complex::operator =(Complex &&)'
+C:\Users\patri\OneDrive\Desktop\Project1\Project1\Source.cpp(25,1): message : or       'Complex &Complex::operator =(const Complex &)'
+C:\Users\patri\OneDrive\Desktop\Project1\Project1\Source.cpp(15,11): message : or       'Complex &Complex::operator =(char *)'
+C:\Users\patri\OneDrive\Desktop\Project1\Project1\Source.cpp(30,12): message : while trying to match the argument list '(Complex, const char [5])'
+C:\Users\patri\OneDrive\Desktop\Project1\Project1\Source.cpp(32,12): error C2679: binary '=': no operator found which takes a right-hand operand of type 'const char [5]' (or there is no acceptable conversion)
+C:\Users\patri\OneDrive\Desktop\Project1\Project1\Source.cpp(25,1): message : could be 'Complex &Complex::operator =(Complex &&)'
+C:\Users\patri\OneDrive\Desktop\Project1\Project1\Source.cpp(25,1): message : or       'Complex &Complex::operator =(const Complex &)'
+C:\Users\patri\OneDrive\Desktop\Project1\Project1\Source.cpp(15,11): message : or       'Complex &Complex::operator =(char *)'
+C:\Users\patri\OneDrive\Desktop\Project1\Project1\Source.cpp(32,12): message : while trying to match the argument list '(Complex, const char [5])'
