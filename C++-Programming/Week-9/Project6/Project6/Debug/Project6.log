@@ -1,0 +1,59 @@
+﻿  Source.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xutility(1481,1): error C3848: expression having type 'const myLess' would lose some const-volatile qualifiers in order to call 'bool myLess::operator ()(const int &,const int &)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xutility(1480): message : see reference to function template instantiation 'bool std::_Debug_lt_pred<const myLess&,const _Kty&,const _Keyty&,0>(_Pr,_Ty1,_Ty2) noexcept(<expr>)' being compiled
+          with
+          [
+              _Kty=int,
+              _Keyty=int,
+              _Pr=const myLess &,
+              _Ty1=const int &,
+              _Ty2=const int &
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtree(998): message : see reference to function template instantiation 'std::_Tree_find_result<std::_Tree_node<int,std::_Default_allocator_traits<_Alloc>::void_pointer> *> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::_Find_lower_bound<_Key>(const _Keyty &) const' being compiled
+          with
+          [
+              _Alloc=std::allocator<int>,
+              _Kty=int,
+              _Pr=myLess,
+              _Key=int,
+              _Keyty=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtree(1005): message : see reference to function template instantiation 'std::_Tree_find_result<std::_Tree_node<int,std::_Default_allocator_traits<_Alloc>::void_pointer> *> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::_Find_lower_bound<_Key>(const _Keyty &) const' being compiled
+          with
+          [
+              _Alloc=std::allocator<int>,
+              _Kty=int,
+              _Pr=myLess,
+              _Key=int,
+              _Keyty=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtree(1331): message : see reference to function template instantiation 'std::pair<std::_Tree_node<int,std::_Default_allocator_traits<_Alloc>::void_pointer> *,bool> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::_Emplace<const int&>(const int &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<int>,
+              _Kty=int,
+              _Pr=myLess
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtree(1331): message : see reference to function template instantiation 'std::pair<std::_Tree_node<int,std::_Default_allocator_traits<_Alloc>::void_pointer> *,bool> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::_Emplace<const int&>(const int &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<int>,
+              _Kty=int,
+              _Pr=myLess
+          ]
+C:\Users\patri\OneDrive\Desktop\Project6\Project6\Source.cpp(56): message : see reference to function template instantiation 'std::pair<std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<int>>>,bool> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert<false,0>(const int &)' being compiled
+          with
+          [
+              _Kty=int,
+              _Pr=myLess,
+              _Alloc=std::allocator<int>
+          ]
+C:\Users\patri\OneDrive\Desktop\Project6\Project6\Source.cpp(56): message : see reference to function template instantiation 'std::pair<std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<int>>>,bool> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert<false,0>(const int &)' being compiled
+          with
+          [
+              _Kty=int,
+              _Pr=myLess,
+              _Alloc=std::allocator<int>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xutility(1481,5): error C2056: illegal expression
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xutility(1481,39): error C2056: illegal expression
