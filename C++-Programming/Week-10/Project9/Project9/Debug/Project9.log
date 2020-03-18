@@ -1,0 +1,59 @@
+﻿  Source.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xutility(1481,1): error C3848: expression having type 'const Comp' would lose some const-volatile qualifiers in order to call 'bool Comp::operator ()(A *,A *)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xutility(1480): message : see reference to function template instantiation 'bool std::_Debug_lt_pred<const Comp&,const _Kty&,const _Keyty&,0>(_Pr,_Ty1,_Ty2) noexcept(<expr>)' being compiled
+          with
+          [
+              _Kty=A *,
+              _Keyty=A *,
+              _Pr=const Comp &,
+              _Ty1=A *const &,
+              _Ty2=A *const &
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtree(998): message : see reference to function template instantiation 'std::_Tree_find_result<std::_Tree_node<A *,std::_Default_allocator_traits<_Alloc>::void_pointer> *> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::_Find_lower_bound<_Key>(const _Keyty &) const' being compiled
+          with
+          [
+              _Alloc=std::allocator<A *>,
+              _Kty=A *,
+              _Pr=Comp,
+              _Key=A *,
+              _Keyty=A *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtree(1005): message : see reference to function template instantiation 'std::_Tree_find_result<std::_Tree_node<A *,std::_Default_allocator_traits<_Alloc>::void_pointer> *> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::_Find_lower_bound<_Key>(const _Keyty &) const' being compiled
+          with
+          [
+              _Alloc=std::allocator<A *>,
+              _Kty=A *,
+              _Pr=Comp,
+              _Key=A *,
+              _Keyty=A *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtree(1342): message : see reference to function template instantiation 'std::pair<std::_Tree_node<A *,std::_Default_allocator_traits<_Alloc>::void_pointer> *,bool> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::_Emplace<A*>(A *&&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<A *>,
+              _Kty=A *,
+              _Pr=Comp
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtree(1342): message : see reference to function template instantiation 'std::pair<std::_Tree_node<A *,std::_Default_allocator_traits<_Alloc>::void_pointer> *,bool> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::_Emplace<A*>(A *&&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<A *>,
+              _Kty=A *,
+              _Pr=Comp
+          ]
+C:\Users\patri\OneDrive\Desktop\Project9\Project9\Source.cpp(56): message : see reference to function template instantiation 'std::pair<std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<A *>>>,bool> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert<false,0>(A *&&)' being compiled
+          with
+          [
+              _Kty=A *,
+              _Pr=Comp,
+              _Alloc=std::allocator<A *>
+          ]
+C:\Users\patri\OneDrive\Desktop\Project9\Project9\Source.cpp(56): message : see reference to function template instantiation 'std::pair<std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<A *>>>,bool> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert<false,0>(A *&&)' being compiled
+          with
+          [
+              _Kty=A *,
+              _Pr=Comp,
+              _Alloc=std::allocator<A *>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xutility(1481,5): error C2056: illegal expression
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xutility(1481,39): error C2056: illegal expression
